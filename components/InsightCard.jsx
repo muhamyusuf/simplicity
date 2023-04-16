@@ -32,7 +32,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
           alt="arrow"
           width={40}
           height={40}
-          className="object-contain"
+          className="object-contain rotate-[29deg]"
         />
       </div>
     </div>

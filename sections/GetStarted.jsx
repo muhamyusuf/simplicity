@@ -31,7 +31,7 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| Element of Simplicity " />
+        <TypingText title="Element of Simplicity" />
         <div className="flex flex-row items-center justify-start gap-2">
           <TextGradient title={<>Refactoring</>} />
           <TitleText title={<>Design</>} />
