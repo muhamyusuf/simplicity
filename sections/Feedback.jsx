@@ -39,7 +39,7 @@ const Feedback = () => (
         className="relative flex items-center justify-center flex-1"
       >
         <Image
-          src="/planet-09.png"
+          src="/plane.jpg"
           alt="planet-09"
           width={600}
           height={600}

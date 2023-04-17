@@ -6,12 +6,12 @@ export const exploreWorlds = [
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/gradientweb.png',
     title: 'Gradient Website',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/hero.jpg',
     title: 'Full-page Hero',
   },
   {
@@ -36,16 +36,16 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/fast.png',
     title: 'Load more Faster',
     subtitle:
-      'we have the latest update with new world for you to try never mind',
+      'A simple website design may include a clean layout, easy-to-read fonts, and minimal use of graphics and multimedia elements',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/aesthethic.png',
     title: 'Aesthetics and Minimalist',
     subtitle:
-      'In the latest update, your eyes are narrow, making the world more realistic than ever',
+      'Clean and uncluttered layout, with a focus on using negative space to draw attention to key elements on the page',
   },
 ];
 

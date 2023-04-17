@@ -39,7 +39,7 @@ const WhatsNew = () => (
         className="flex-1 flexCenter"
       >
         <Image
-          src="/whats-new.png"
+          src="/hand.png"
           alt="get-started"
           width={1}
           height={1}

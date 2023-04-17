@@ -20,7 +20,7 @@ const GetStarted = () => (
         className="flex-1 flexCenter"
       >
         <Image
-          src="/get-started.png"
+          src="/smartphone.png"
           alt="get-started"
           width={1}
           height={1}
