@@ -58,21 +58,13 @@ const Navbar = () => {
 
         <div className="hidden md:block">
           <ul className="flex gap-3">
-            {navbarLinks.map((item) => {
-              return (
-                <Link
-                  to={item.link}
-                  spy={true}
-                  smooth={true}
-                  offset={20}
-                  duration={200}
-                >
-                  <li className="font-bold text-center text-white cursor-pointer text-md">
-                    {item.name}
-                  </li>
-                </Link>
-              );
-            })}
+            {navbarLinks.map((item) => (
+              <Link to={item.link} spy smooth offset={20} duration={200}>
+                <li className="font-bold text-center text-white cursor-pointer text-md">
+                  {item.name}
+                </li>
+              </Link>
+            ))}
           </ul>
         </div>
 
@@ -83,13 +75,7 @@ const Navbar = () => {
         >
           <ul className="flex flex-col justify-start pt-[20%] gap-[50px] z-[22] text-5xl cursor-pointer">
             {navbarLinks.map((item) => (
-              <Link
-                to={item.link}
-                spy={true}
-                smooth={true}
-                offset={20}
-                duration={200}
-              >
+              <Link to={item.link} spy smooth offset={20} duration={200}>
                 <li
                   className="font-bold text-center text-white cursor-pointer text-md"
                   onClick={() => {
