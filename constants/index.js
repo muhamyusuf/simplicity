@@ -1,3 +1,22 @@
+export const navbarLinks = [
+  {
+    name: 'About',
+    link: 'About',
+  },
+  {
+    name: 'Element',
+    link: 'Element',
+  },
+  {
+    name: 'Superiority',
+    link: 'Superiority',
+  },
+  {
+    name: 'Insight',
+    link: 'Insight',
+  },
+];
+
 export const exploreWorlds = [
   {
     id: 'world-1',

@@ -151,3 +151,7 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+.stopscroll {
+  overflow: hidden;
+}

@@ -12,7 +12,7 @@ import {
 } from '../components';
 
 const Insights = () => (
-  <section className="relative z-10 paddings">
+  <section className="relative z-10 paddings" id="Insight">
     <motion.div
       variants={staggerContainer}
       initial="hidden"

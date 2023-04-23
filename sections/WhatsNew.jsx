@@ -12,7 +12,7 @@ import {
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 const WhatsNew = () => (
-  <section className="relative z-10 paddings">
+  <section className="relative z-10 paddings" id="Superiority">
     <motion.div
       variants={staggerContainer}
       initial="hidden"
