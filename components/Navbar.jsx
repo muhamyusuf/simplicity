@@ -1,4 +1,5 @@
 'use client';
+
 import { useState } from 'react';
 
 import Image from 'next/image';
@@ -28,6 +29,7 @@ const Navbar = () => {
         </Link>
 
         <button
+          type="button"
           onClick={() => {
             setNavOpen(!navOpen);
             const body = document.querySelector('body');
@@ -80,28 +82,26 @@ const Navbar = () => {
           } transition-all duration-500 ease-out md:hidden bg-primary-black h-screen inset-0 z-[20]`}
         >
           <ul className="flex flex-col justify-start pt-[20%] gap-[50px] z-[22] text-5xl cursor-pointer">
-            {navbarLinks.map((item) => {
-              return (
-                <Link
-                  to={item.link}
-                  spy={true}
-                  smooth={true}
-                  offset={50}
-                  duration={500}
+            {navbarLinks.map((item) => (
+              <Link
+                to={item.link}
+                spy={true}
+                smooth={true}
+                offset={20}
+                duration={200}
+              >
+                <li
+                  className="font-bold text-center text-white cursor-pointer text-md"
+                  onClick={() => {
+                    setNavOpen(!navOpen);
+                    const body = document.querySelector('body');
+                    body.style.overflow = navOpen ? 'auto' : 'hidden';
+                  }}
                 >
-                  <li
-                    className="font-bold text-center text-white cursor-pointer text-md z-[23]"
-                    onClick={() => {
-                      setNavOpen(!navOpen);
-                      const body = document.querySelector('body');
-                      body.style.overflow = navOpen ? 'auto' : 'hidden';
-                    }}
-                  >
-                    {item.name}
-                  </li>
-                </Link>
-              );
-            })}
+                  {item.name}
+                </li>
+              </Link>
+            ))}
           </ul>
         </div>
       </div>

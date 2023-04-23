@@ -17,5 +17,4 @@ export {
   ExploreCard,
   InsightCard,
   Footer,
-  Navbartest,
 };
